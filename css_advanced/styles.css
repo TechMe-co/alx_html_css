@@ -1,0 +1,269 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+header {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	
+}
+header a {
+	margin-top: 20px;
+	margin-left: 40px;
+}
+header a img {
+	margin: 20px;
+}
+.mainnav ul {
+	list-style-type: none;
+	display:flex;
+}
+.mainnav ul li {
+	
+	position: relative;
+	top: -40px;
+	left: 800px;
+}
+.mainnav ul li a {
+	text-decoration: none;
+	color: white;
+}
+header a {
+	text-decoration: none;
+}
+main section img {
+	position: relative;
+	top: -85px;
+}
+.main {
+	position: absolute;
+	top: 280px;
+}
+.main .top {
+	color: white;
+	text-align: center;
+	margin-left: 340px;
+	margin-top: -140px;
+}
+.top .h1top {
+	font-size: 110px;
+	margin-bottom: 5px;
+}
+.top span {
+	padding: 20px;
+	font-size: 18px;
+}
+.top button {
+	font-size: 12px;
+	padding: 10px;
+	margin: 30px;
+	border: 2px;
+	border-radius: 12px;
+	background-color: blueviolet;
+	color: white;
+}
+.t1 {
+	text-align: center;
+	padding-top: 40px;
+	font-size: 20px;
+	color: white;
+	margin-left: 340px;
+	margin-bottom: 120px;
+	margin-top: 110px;
+}
+.t1 span {
+	color: #C271FF;
+}
+.images {
+	display: flex;
+	text-align: center;
+	margin-top: 80px;
+	margin-left: 200px;
+}
+.images div {
+	padding: 20px;
+	text-align: center;
+	margin-left: 40px;
+	color: white;
+}
+.test {
+	margin-top: -80px;
+}
+.review {
+	position: relative;
+	top: -100px;
+	background-color: #C271FF;
+	height: 392px;
+	width: 1440px;
+	line-height: 24px;
+	color: white;
+ }
+ .review img {
+	margin-left: 200px;
+	margin-top: 160px;
+ }
+ .review div {
+	margin-left: 400px;
+	margin-top: -200px;
+ }
+.review div blockquote {
+	margin-bottom: 10px;
+} 
+footer {
+	background-color: #C271FF;
+	height: 300px;
+	width: 1440px;
+}
+footer p {
+	text-align: center;
+	font-size: 8px;
+	position: relative;
+	top: 180px;
+	color: white;
+} 
+footer .row-block img {
+	position: relative;
+	top: 100px;
+	left: 80px;
+}
+.social	{
+	display: flex;
+	margin-left: 950px;
+	margin-top: -39px;
+}
+.social a img {
+	width: 20px;
+	height: 20px;
+	padding: 4px;
+}
+.faq h3 {
+	text-align: center;
+	margin-top: 80px;
+}
+.faq .row-block {
+	column-count: 2;
+	column-gap: 120px;
+	margin: 160px;
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+.items-block h4 {
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+.items-block p {
+	font-size: 16px;
+	color: #505153;
+}
+.member {
+	background-color: #170227;
+	height: 350px;
+	width: 1440px;
+}
+.member h3 {
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: -60px;
+	color: white;
+	font-size: 24px;
+}
+.member h3 span {
+	color: #C271FF;
+}
+.member .xmember {
+	display: flex;
+	text-align: center;
+	color: white;
+}
+.member button {
+	border: 2px;
+	border-radius: 12px;
+	background-color: blueviolet;
+	color: white;
+	font-size: 12px;
+	padding: 10px;
+	text-align: center;
+	position: relative;
+	left: 620px;
+	bottom: -120px;
+	margin-bottom: 20px;
+}
+.xmember div {
+	position: relative;
+	left: 200px;
+	bottom: -120px;
+	padding: 40px;
+}
+.xmember div img {
+	margin-bottom: -60px;
+}
+.xmember div h4 {
+	margin-bottom: 20px;
+}
+.popular .group {
+	display: flex;
+	margin-left: 120px;
+	margin-top: 120px;
+}
+.popular .group div {
+	padding: 10px;
+}
+.popular .group .pic {
+	display: flex;
+}
+.popular h3 {
+	text-align: center;
+	font-size: 24px;
+}
+.popular h3 span {
+	color: #C271FF;
+}
+.popular .pic img {
+	width: 35px;
+	height: 35px;
+}
+.popular .pic h5 {
+	font-size: 18px;
+}
+.popular .group .head {
+	margin-top: -80px;
+	margin-left: -8px;
+	line-height: 24px;
+	text-align: left;
+}
+.popular .group .head h4 {
+	font-size: 20px;
+}
+.popular .group .head p {
+	font-size: 16px;
+	color: #505153;
+}
+.popular .group .pic {
+	display: flex;
+}
+.popular .group .pic img {
+	margin-top: 80px;
+	margin-left: -10px;
+}
+.popular .group .pic h5 {
+	margin: 4px;
+	margin-left: 12px;
+	font-size: 14px;
+}
+.popular .group .rate {
+	display: flex;
+}
+.popular .group .rate p {
+	font-size: 14px;
+	margin-top: -75px;
+	margin-left: 105px;
+	color: #C271FF;
+} 
+.popular .group .rate div img {
+	width: 70px;
+	height: 10px;
+	margin-left: -20px;
+	margin-top: -400px;
+}
